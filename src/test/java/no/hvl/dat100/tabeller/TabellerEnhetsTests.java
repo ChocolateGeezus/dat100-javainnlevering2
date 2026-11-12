@@ -109,5 +109,6 @@ class TabellerEnhetsTests {
 		assertArrayEquals(tabell, Tabeller.settSammen(tabell2, tabell1));
 		assertArrayEquals(tabell1, Tabeller.settSammen(tabell3, tabell1));
 		assertArrayEquals(tabell1, Tabeller.settSammen(tabell1, tabell3));
+		assertArrayEquals(tabell1, Tabeller.settSammen(tabell1, tabell3)); //test forh github //
 	}
 }
